@@ -41,7 +41,7 @@ function Catalog() {
 
     return (<main>
         <div className="catalog-header">
-            <h1>Find your next favorite book</h1>
+            <h1>Find your next favorite book!!!</h1>
             <p className="page-description">Welcome to the Book Catalog! Browse our collection of books and find your
                 next great read.</p>
             {loading && <p>Loading...</p>}
