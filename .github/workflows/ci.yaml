@@ -21,3 +21,8 @@ jobs:
         run: npm ci
       - name: Build React application
         run: npm run build
+      - name: Build Docker image
+        run: docker build -t book-frontend:latest .
+    permissions:
+      contents: read
+      packages: write
